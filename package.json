@@ -8,13 +8,18 @@
     "start": "vue-cli-service serve"
   },
   "dependencies": {
+    "@apollo/client": "^3.7.1",
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
     "@mdi/font": "5.9.55",
     "@mui/material": "^5.10.5",
+    "@vue/apollo-composable": "^4.0.0-beta.1",
+    "@vue/apollo-util": "^4.0.0-alpha.18",
     "axios": "^0.27.2",
     "core-js": "^3.8.3",
     "element-plus": "^2.2.17",
+    "graphql": "^16.6.0",
+    "graphql-tag": "^2.12.6",
     "roboto-fontface": "*",
     "vue": "^3.2.13",
     "vue-class-component": "^8.0.0-0",
