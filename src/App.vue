@@ -1,24 +1,26 @@
 <template>
   <PageHeader />
   <Suspense>
-    <UserData/>
+    <RepositoriesData/>
   </Suspense>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
 import PageHeader from '@/components/common/Header/Header.vue'
-import UserData from '@/components/pages/User/UserData.vue'
+import RepositoriesData from '@/components/pages/Repositories/RepositoriesData.vue'
 export default defineComponent({
   name: 'App',
 
   components: {
-    UserData,
+    RepositoriesData,
     PageHeader,
   },
 
   data () {
-    return {}
+    return {
+      searchRepository: '',
+    }
   },
 })
 </script>

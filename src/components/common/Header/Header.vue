@@ -1,28 +1,29 @@
 <template>
-  <div class="header-wrapper">
-    <div class="logo">
-      Github
-    </div>
+  <div class='header-wrapper'>
+    <div class='logo'>Github</div>
   </div>
 </template>
 
 <script>
-  export default{
-    name: 'PageHeader',
-  }
+export default {
+  name: 'PageHeader',
+};
 </script>
 
-<style lang="scss">
-  .header-wrapper {
-    width: 100%;
-    height: 100px;
-    background: #0073c5;
-    display: flex;
-    justify-content: flex-start;
+<style lang='scss'>
+.header-wrapper {
+  width: 100%;
+  height: 100px;
+  background: #0073c5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  box-sizing: border-box;
 
-    .logo {
-      margin: auto 30px;
-      font-size: 35px;
-    }
+  .logo {
+    margin: auto 30px;
+    font-size: 35px;
   }
+}
 </style>
