@@ -1,6 +1,7 @@
 <template>
   <div class='header-wrapper'>
-    <div class='logo'>Github</div>
+    <router-link class='logo' to="/">Github</router-link>
+    <router-link class='profile' to="/profile">Profile</router-link>
   </div>
 </template>
 
@@ -22,8 +23,17 @@ export default {
   box-sizing: border-box;
 
   .logo {
+    color: black;
+    text-decoration: none;
     margin: auto 30px;
     font-size: 35px;
+  }
+
+  .profile {
+    color: black;
+    text-decoration: none;
+    margin: auto 30px;
+    font-size: 20px;
   }
 }
 </style>
