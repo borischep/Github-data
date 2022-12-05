@@ -23,6 +23,7 @@
     "roboto-fontface": "*",
     "vue": "^3.2.13",
     "vue-class-component": "^8.0.0-0",
+    "vue-router": "^4.1.6",
     "webfontloader": "^1.0.0"
   },
   "devDependencies": {

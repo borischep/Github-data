@@ -2,18 +2,24 @@
   <div class='repositories-block'>
     <SearchInput @searchTextChange='filterTableData'/>
     <el-table :data='pagedTableData' height='500' style='width: 100%'>
-      <el-table-column prop='name' label='Repository name' />
+      <el-table-column
+        prop='name'
+        sortable
+        label='Repository name'
+      />
       <el-table-column
         prop='stargazers.totalCount'
         align='right'
         label='Stars'
         width='200'
+        sortable
       />
       <el-table-column
         prop='forkCount'
         align='right'
         label='Forks'
         width='200'
+        sortable
       />
     </el-table>
     <el-pagination
